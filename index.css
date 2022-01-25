@@ -130,7 +130,7 @@ table {
 
 /*This starts the beginning of my CSS implementation*/
 
-/*Look at this project with dimensions of 1742x843*/
+/*Look at this project with dimensions of 1650x843*/
 
 body {
 	font-family: "Roboto Mono", monospace;
@@ -192,4 +192,48 @@ section p:first-child {
 #footer-nav {
 	background-color: #f9e7dc;
 	margin: 0;
+}
+
+footer #footer-image {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 40vh;
+}
+
+footer #footer-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	object-position: top right;
+}
+
+#fire-section,
+#camping-section {
+	display: block;
+	text-align: center;
+	margin-top: 2.5vh;
+}
+
+#camping-section {
+	margin-bottom: 10vh;
+}
+
+#camping-section img,
+#fire-section img {
+	border-radius: 50%;
+	width: 20%;
+	padding: 5vh;
+}
+
+#camping-section p,
+#fire-section p {
+	width: 20%;
+	margin: 0 auto;
+}
+
+#park,
+#fire {
+	font-weight: bold;
 }
